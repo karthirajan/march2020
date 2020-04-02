@@ -7,7 +7,7 @@ Feature: Add Customer in demo site
     And User click on submit button
     Then User should be displayed customer ID is generated or not
 
-  Scenario: Add Customer with hard coded datas
+  Scenario: One Dim List
     Given User launches demo telecom site
     And User click on add customer button
     When User enters all the fields with one dimensional
@@ -15,7 +15,7 @@ Feature: Add Customer in demo site
     And User click on submit button
     Then User should be displayed customer ID is generated or not
 
-  Scenario: Add Customer with hard coded datas
+  Scenario: 
     Given User launches demo telecom site
     And User click on add customer button
     When User enters all the fields with one dimensional map
