@@ -1,5 +1,8 @@
+@regressionFeb
 Feature: Add Customer in demo site
 
+
+  @sanity1
   Scenario: Add Customer with hard coded datas
     
     And User click on add customer button
@@ -7,6 +10,7 @@ Feature: Add Customer in demo site
     And User click on submit button
     Then User should be displayed customer ID is generated or not
 
+ @smoke1 @karthi
   Scenario: One Dim List
     
     And User click on add customer button
@@ -15,6 +19,7 @@ Feature: Add Customer in demo site
     And User click on submit button
     Then User should be displayed customer ID is generated or not
 
+ @karthi
   Scenario: 
   
     And User click on add customer button
